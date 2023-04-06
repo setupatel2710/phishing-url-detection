@@ -1,0 +1,20 @@
+{
+    "name": "Phishing URL Detection",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "popup.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs"
+
+    ]
+}
