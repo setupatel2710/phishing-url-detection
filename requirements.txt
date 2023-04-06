@@ -1,0 +1,5 @@
+tensorflow-cpu
+python-whois
+fastapi
+uvicorn
+bs4
